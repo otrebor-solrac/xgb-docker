@@ -1,0 +1,5 @@
+Exception during training: name 'y_true' is not defined
+Traceback (most recent call last):
+  File "train", line 80, in train
+    print("acc:", accuracy_score(y_true, test_y))
+NameError: name 'y_true' is not defined
